@@ -1,0 +1,249 @@
+2013-03-11 17:57:31,326 -- repoze.who request started (/) --
+2013-03-11 17:57:31,327 request classification: browser
+2013-03-11 17:57:31,327 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:31,327 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:31,327 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:31,327 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:31,327 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=a9bf6564fd1bda663a1d76dcab5bf59fc0f1f2040100f2350af5f554cd8b2601" (repoze.who.userid set)
+2013-03-11 17:57:31,334 no challenge required
+2013-03-11 17:57:31,334 -- repoze.who request ended (/) --
+2013-03-11 17:57:36,101 -- repoze.who request started (/) --
+2013-03-11 17:57:36,101 request classification: browser
+2013-03-11 17:57:36,101 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:36,102 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:36,102 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:36,102 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:36,102 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=a9bf6564fd1bda663a1d76dcab5bf59fc0f1f2040100f2350af5f554cd8b2601" (repoze.who.userid set)
+2013-03-11 17:57:36,103 challenge required
+2013-03-11 17:57:36,103 forgetting via headers from <AuthTktCookiePlugin 4359972752>: [('Set-Cookie', 'pysaml2="INVALID"; Path=/; Max-Age=0; Expires=Mon, 11 Mar 2013 17:57:36'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:57:36'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=.localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:57:36')]
+2013-03-11 17:57:36,103 challengers registered: [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:36,103 challengers matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:36,105 challenger plugin <SAML2Plugin 4360358352> "challenge" returned an app
+2013-03-11 17:57:36,105 executing challenge app
+2013-03-11 17:57:36,105 -- repoze.who request ended (/) --
+2013-03-11 17:57:37,815 -- repoze.who request started (/) --
+2013-03-11 17:57:37,815 request classification: browser
+2013-03-11 17:57:37,815 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:37,815 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:37,839 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:37,839 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:37,840 userid preauthenticated by <SAML2Plugin 4360358352>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:57:37,840 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=a9bf6564fd1bda663a1d76dcab5bf59fc0f1f2040100f2350af5f554cd8b2601" (repoze.who.userid set)
+2013-03-11 17:57:37,841 no challenge required
+2013-03-11 17:57:37,841 remembering via headers from <SAML2Plugin 4360358352>: [('Set-Cookie', 'pysaml2="fa010a00b0572f5f94a0e21c180aad60513e0d011%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3Dd69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7!"; Path=/'), ('Set-Cookie', 'pysaml2="fa010a00b0572f5f94a0e21c180aad60513e0d011%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3Dd69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7!"; Path=/; Domain=localhost:8087'), ('Set-Cookie', 'pysaml2="fa010a00b0572f5f94a0e21c180aad60513e0d011%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3Dd69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7!"; Path=/; Domain=.localhost:8087')]
+2013-03-11 17:57:37,841 -- repoze.who request ended (/) --
+2013-03-11 17:57:39,409 -- repoze.who request started (/logout) --
+2013-03-11 17:57:39,409 request classification: browser
+2013-03-11 17:57:39,409 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:39,409 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:39,410 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:39,410 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:39,410 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:57:39,427 no challenge required
+2013-03-11 17:57:39,427 -- repoze.who request ended (/logout) --
+2013-03-11 17:57:39,432 -- repoze.who request started (/done) --
+2013-03-11 17:57:39,432 request classification: browser
+2013-03-11 17:57:39,432 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:39,432 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:57:39,432 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:39,432 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:57:39,433 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:57:39,439 no challenge required
+2013-03-11 17:57:39,439 -- repoze.who request ended (/done) --
+2013-03-11 17:58:54,923 -- repoze.who request started (/done) --
+2013-03-11 17:58:54,923 request classification: browser
+2013-03-11 17:58:54,923 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:58:54,923 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:58:54,923 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:58:54,923 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:58:54,923 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:58:54,929 no challenge required
+2013-03-11 17:58:54,929 -- repoze.who request ended (/done) --
+2013-03-11 17:58:59,392 -- repoze.who request started (/donefdsgdfg) --
+2013-03-11 17:58:59,392 request classification: browser
+2013-03-11 17:58:59,393 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:58:59,393 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:58:59,393 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:58:59,393 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:58:59,393 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:58:59,395 no challenge required
+2013-03-11 17:58:59,395 -- repoze.who request ended (/donefdsgdfg) --
+2013-03-11 17:59:13,168 -- repoze.who request started (/) --
+2013-03-11 17:59:13,168 request classification: browser
+2013-03-11 17:59:13,169 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:13,169 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:13,169 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:13,169 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:13,169 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:59:13,176 no challenge required
+2013-03-11 17:59:13,176 -- repoze.who request ended (/) --
+2013-03-11 17:59:29,544 -- repoze.who request started (/) --
+2013-03-11 17:59:29,544 request classification: browser
+2013-03-11 17:59:29,545 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:29,545 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:29,545 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:29,545 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:29,545 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:59:29,546 challenge required
+2013-03-11 17:59:29,546 forgetting via headers from <AuthTktCookiePlugin 4359972752>: [('Set-Cookie', 'pysaml2="INVALID"; Path=/; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:29'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:29'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=.localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:29')]
+2013-03-11 17:59:29,546 challengers registered: [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:29,546 challengers matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:29,548 challenger plugin <SAML2Plugin 4360358352> "challenge" returned an app
+2013-03-11 17:59:29,548 executing challenge app
+2013-03-11 17:59:29,548 -- repoze.who request ended (/) --
+2013-03-11 17:59:35,570 -- repoze.who request started (/) --
+2013-03-11 17:59:35,570 request classification: browser
+2013-03-11 17:59:35,570 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:35,570 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:35,570 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:35,570 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:35,570 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:59:35,571 challenge required
+2013-03-11 17:59:35,571 forgetting via headers from <AuthTktCookiePlugin 4359972752>: [('Set-Cookie', 'pysaml2="INVALID"; Path=/; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:35'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:35'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=.localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:35')]
+2013-03-11 17:59:35,571 challengers registered: [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:35,571 challengers matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:35,573 challenger plugin <SAML2Plugin 4360358352> "challenge" returned an app
+2013-03-11 17:59:35,573 executing challenge app
+2013-03-11 17:59:35,573 -- repoze.who request ended (/) --
+2013-03-11 17:59:37,218 -- repoze.who request started (/) --
+2013-03-11 17:59:37,218 request classification: browser
+2013-03-11 17:59:37,218 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:37,218 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:37,247 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:37,248 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:37,248 userid preauthenticated by <SAML2Plugin 4360358352>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a" (repoze.who.userid set)
+2013-03-11 17:59:37,248 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=d69409a1f167bb3fc27500f55787358abe165bf6e566d230f826ebddd184f2f7" (repoze.who.userid set)
+2013-03-11 17:59:37,249 no challenge required
+2013-03-11 17:59:37,249 remembering via headers from <SAML2Plugin 4360358352>: [('Set-Cookie', 'pysaml2="fe0063c71e9b39e6beba9db6a455b123513e0d791%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a!"; Path=/'), ('Set-Cookie', 'pysaml2="fe0063c71e9b39e6beba9db6a455b123513e0d791%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a!"; Path=/; Domain=localhost:8087'), ('Set-Cookie', 'pysaml2="fe0063c71e9b39e6beba9db6a455b123513e0d791%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a!"; Path=/; Domain=.localhost:8087')]
+2013-03-11 17:59:37,249 -- repoze.who request ended (/) --
+2013-03-11 17:59:40,905 -- repoze.who request started (/logout) --
+2013-03-11 17:59:40,905 request classification: browser
+2013-03-11 17:59:40,905 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:40,905 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:40,906 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:40,906 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:40,906 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a" (repoze.who.userid set)
+2013-03-11 17:59:40,924 no challenge required
+2013-03-11 17:59:40,924 -- repoze.who request ended (/logout) --
+2013-03-11 17:59:40,929 -- repoze.who request started (/done) --
+2013-03-11 17:59:40,929 request classification: browser
+2013-03-11 17:59:40,929 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:40,929 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:40,930 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:40,930 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:40,930 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a" (repoze.who.userid set)
+2013-03-11 17:59:40,936 no challenge required
+2013-03-11 17:59:40,936 -- repoze.who request ended (/done) --
+2013-03-11 17:59:45,447 -- repoze.who request started (/) --
+2013-03-11 17:59:45,447 request classification: browser
+2013-03-11 17:59:45,447 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:45,448 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:45,448 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:45,448 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:45,448 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a" (repoze.who.userid set)
+2013-03-11 17:59:45,455 no challenge required
+2013-03-11 17:59:45,455 -- repoze.who request ended (/) --
+2013-03-11 17:59:48,955 -- repoze.who request started (/) --
+2013-03-11 17:59:48,955 request classification: browser
+2013-03-11 17:59:48,955 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:48,955 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:48,955 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:48,955 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:48,955 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a" (repoze.who.userid set)
+2013-03-11 17:59:48,956 challenge required
+2013-03-11 17:59:48,956 forgetting via headers from <AuthTktCookiePlugin 4359972752>: [('Set-Cookie', 'pysaml2="INVALID"; Path=/; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:48'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:48'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=.localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 17:59:48')]
+2013-03-11 17:59:48,956 challengers registered: [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:48,957 challengers matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:48,958 challenger plugin <SAML2Plugin 4360358352> "challenge" returned an app
+2013-03-11 17:59:48,958 executing challenge app
+2013-03-11 17:59:48,959 -- repoze.who request ended (/) --
+2013-03-11 17:59:54,268 -- repoze.who request started (/) --
+2013-03-11 17:59:54,269 request classification: browser
+2013-03-11 17:59:54,269 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:54,269 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 17:59:54,293 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:54,293 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 17:59:54,293 userid preauthenticated by <SAML2Plugin 4360358352>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 17:59:54,293 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=3d0d3fefe7cc3e1b53bb0b5e5aa8f949bfa6e8c8673ebc06aa10b4d24c9c1b2a" (repoze.who.userid set)
+2013-03-11 17:59:54,294 no challenge required
+2013-03-11 17:59:54,294 remembering via headers from <SAML2Plugin 4360358352>: [('Set-Cookie', 'pysaml2="2a1cf9c4f1661b30908edb4559694def513e0d8a1%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af!"; Path=/'), ('Set-Cookie', 'pysaml2="2a1cf9c4f1661b30908edb4559694def513e0d8a1%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af!"; Path=/; Domain=localhost:8087'), ('Set-Cookie', 'pysaml2="2a1cf9c4f1661b30908edb4559694def513e0d8a1%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af!"; Path=/; Domain=.localhost:8087')]
+2013-03-11 17:59:54,294 -- repoze.who request ended (/) --
+2013-03-11 18:10:02,270 -- repoze.who request started (/) --
+2013-03-11 18:10:02,271 request classification: browser
+2013-03-11 18:10:02,271 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:02,271 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:02,271 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:02,271 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:02,271 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 18:10:02,272 no challenge required
+2013-03-11 18:10:02,272 -- repoze.who request ended (/) --
+2013-03-11 18:10:04,197 -- repoze.who request started (/logout) --
+2013-03-11 18:10:04,197 request classification: browser
+2013-03-11 18:10:04,197 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:04,197 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:04,197 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:04,197 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:04,197 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 18:10:04,215 no challenge required
+2013-03-11 18:10:04,216 -- repoze.who request ended (/logout) --
+2013-03-11 18:10:04,220 -- repoze.who request started (/done) --
+2013-03-11 18:10:04,221 request classification: browser
+2013-03-11 18:10:04,221 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:04,221 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:04,221 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:04,221 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:04,222 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 18:10:04,228 no challenge required
+2013-03-11 18:10:04,228 -- repoze.who request ended (/done) --
+2013-03-11 18:10:08,058 -- repoze.who request started (/) --
+2013-03-11 18:10:08,058 request classification: browser
+2013-03-11 18:10:08,058 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:08,058 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:08,058 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:08,058 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:08,058 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 18:10:08,064 no challenge required
+2013-03-11 18:10:08,064 -- repoze.who request ended (/) --
+2013-03-11 18:10:10,427 -- repoze.who request started (/) --
+2013-03-11 18:10:10,427 request classification: browser
+2013-03-11 18:10:10,427 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:10,427 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:10,427 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:10,427 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:10,428 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 18:10:10,429 challenge required
+2013-03-11 18:10:10,429 forgetting via headers from <AuthTktCookiePlugin 4359972752>: [('Set-Cookie', 'pysaml2="INVALID"; Path=/; Max-Age=0; Expires=Mon, 11 Mar 2013 18:10:10'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 18:10:10'), ('Set-Cookie', 'pysaml2="INVALID"; Path=/; Domain=.localhost:8087; Max-Age=0; Expires=Mon, 11 Mar 2013 18:10:10')]
+2013-03-11 18:10:10,429 challengers registered: [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:10,429 challengers matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:10,431 challenger plugin <SAML2Plugin 4360358352> "challenge" returned an app
+2013-03-11 18:10:10,431 executing challenge app
+2013-03-11 18:10:10,431 -- repoze.who request ended (/) --
+2013-03-11 18:10:14,530 -- repoze.who request started (/) --
+2013-03-11 18:10:14,530 request classification: browser
+2013-03-11 18:10:14,531 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:14,531 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:14,554 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:14,555 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:14,555 userid preauthenticated by <SAML2Plugin 4360358352>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=922a26448c59864e60da954c653d17864367d714d25a7b1565882ca51a36f800" (repoze.who.userid set)
+2013-03-11 18:10:14,555 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=40b0dafa88c5a08df2e46fa30592af7dfc1ed15a7f2ce138742c0671bebdd7af" (repoze.who.userid set)
+2013-03-11 18:10:14,556 no challenge required
+2013-03-11 18:10:14,556 remembering via headers from <SAML2Plugin 4360358352>: [('Set-Cookie', 'pysaml2="436b86e1080aa34f616ead03424665ae513e0ff61%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D922a26448c59864e60da954c653d17864367d714d25a7b1565882ca51a36f800!"; Path=/'), ('Set-Cookie', 'pysaml2="436b86e1080aa34f616ead03424665ae513e0ff61%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D922a26448c59864e60da954c653d17864367d714d25a7b1565882ca51a36f800!"; Path=/; Domain=localhost:8087'), ('Set-Cookie', 'pysaml2="436b86e1080aa34f616ead03424665ae513e0ff61%3Dhttp%253A//localhost%253A8087/sp.xml%2C2%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Anameid-format%253Atransient%2C4%3D922a26448c59864e60da954c653d17864367d714d25a7b1565882ca51a36f800!"; Path=/; Domain=.localhost:8087')]
+2013-03-11 18:10:14,556 -- repoze.who request ended (/) --
+2013-03-11 18:10:16,005 -- repoze.who request started (/logout) --
+2013-03-11 18:10:16,006 request classification: browser
+2013-03-11 18:10:16,006 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:16,006 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:16,006 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:16,006 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:16,006 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=922a26448c59864e60da954c653d17864367d714d25a7b1565882ca51a36f800" (repoze.who.userid set)
+2013-03-11 18:10:16,025 no challenge required
+2013-03-11 18:10:16,025 -- repoze.who request ended (/logout) --
+2013-03-11 18:10:16,030 -- repoze.who request started (/done) --
+2013-03-11 18:10:16,030 request classification: browser
+2013-03-11 18:10:16,030 identifier plugins registered [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:16,030 identifier plugins matched for classification "browser": [<SAML2Plugin 4360358352>, <AuthTktCookiePlugin 4359972752>]
+2013-03-11 18:10:16,031 authenticator plugins registered [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:16,031 authenticator plugins matched for classification "browser": [<SAML2Plugin 4360358352>]
+2013-03-11 18:10:16,031 userid preauthenticated by <AuthTktCookiePlugin 4359972752>: "1=http%3A//localhost%3A8087/sp.xml,2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient,4=922a26448c59864e60da954c653d17864367d714d25a7b1565882ca51a36f800" (repoze.who.userid set)
+2013-03-11 18:10:16,037 no challenge required
+2013-03-11 18:10:16,037 -- repoze.who request ended (/done) --
