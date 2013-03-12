@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5772a6d-52f0-499d-a550-8448c87ebbc2" name="Default" comment="" />
+    <list default="true" id="b5772a6d-52f0-499d-a550-8448c87ebbc2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/outstanding.db" afterPath="$PROJECT_DIR$/sp/outstanding.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/logs/repoze_who.log" afterPath="$PROJECT_DIR$/sp/logs/repoze_who.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.log.1" afterPath="$PROJECT_DIR$/sp/sp.log.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.log.2" afterPath="$PROJECT_DIR$/sp/sp.log.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.log.3" afterPath="$PROJECT_DIR$/sp/sp.log.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.log.4" afterPath="$PROJECT_DIR$/sp/sp.log.4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.log.5" afterPath="$PROJECT_DIR$/sp/sp.log.5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.log" afterPath="$PROJECT_DIR$/sp/sp.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/logs/sp.log" afterPath="$PROJECT_DIR$/sp/logs/sp.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/sp.py" afterPath="$PROJECT_DIR$/sp/sp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pyTestSp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363018483172" ignored="false" />
@@ -11,21 +24,21 @@
     <file path="/who.ini" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362748814399" ignored="false" />
     <file path="/sp.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363021102991" ignored="false" />
     <file path="$USER_HOME$/pysaml2/example/sp/who.ini" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362995230943" ignored="false" />
-    <file path="/fragment.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363020669178" ignored="false" />
+    <file path="/fragment.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363025030372" ignored="false" />
     <file path="$USER_HOME$/pysaml2/example/sp/sp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362998359952" ignored="false" />
     <file path="$USER_HOME$/IdPproxy/idp.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362989176105" ignored="false" />
-    <file path="/sp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363021720795" ignored="false" />
-    <file path="/Dummy.txt" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022483238" ignored="false" />
+    <file path="/sp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022665029" ignored="false" />
+    <file path="/Dummy.txt" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363025489259" ignored="false" />
     <file path="/Library/Python/2.7/site-packages/pysaml2-1.0.0dev-py2.7.egg/saml2/__init__.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363005583686" ignored="false" />
     <file path="$USER_HOME$/pysaml2/example/idp2/idp.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362992274612" ignored="false" />
     <file path="$USER_HOME$/pysaml2/tools/make_metadata.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362995345648" ignored="false" />
     <file path="/make_metadata.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362993956883" ignored="false" />
     <file path="/Library/Python/2.7/site-packages/pysaml2-1.0.0dev-py2.7.egg/saml2/xml/template.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362996214752" ignored="false" />
     <file path="$USER_HOME$/pysaml2/example/idp2/idp.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362998359952" ignored="false" />
-    <file path="/idp.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363021858736" ignored="false" />
+    <file path="/idp.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363074205507" ignored="false" />
     <file path="$USER_HOME$/pysaml2/example/idp2/idp_err.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362993499420" ignored="false" />
-    <file path="$USER_HOME$/pysaml2/example/idp2/idp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362998359952" ignored="false" />
-    <file path="/idp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363012783091" ignored="false" />
+    <file path="$USER_HOME$/pysaml2/example/idp2/idp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363074250396" ignored="false" />
+    <file path="/idp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363074249136" ignored="false" />
     <file path="$USER_HOME$/pysaml2/src/saml2/client.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1362998336907" ignored="false" />
     <file path="/Library/Python/2.7/site-packages/pysaml2-1.0.0dev-py2.7.egg/saml2/sigver.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363005583686" ignored="false" />
     <file path="/Library/Python/2.7/site-packages/pysaml2-1.0.0dev-py2.7.egg/saml2/mdstore.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363005583686" ignored="false" />
@@ -49,14 +62,18 @@
     <file path="/entity.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363005529111" ignored="false" />
     <file path="$USER_HOME$/IdPproxy/idp_proxy.log" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363014669683" ignored="false" />
     <file path="$USER_HOME$/IdPproxy/idp_proxy.log.3" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363014669683" ignored="false" />
-    <file path="$USER_HOME$/IdPproxy/idp_proxy.log.1" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363015016344" ignored="false" />
-    <file path="$USER_HOME$/IdPproxy/idp_proxy.log.2" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363014669683" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/idp_proxy.log.1" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363074337837" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/idp_proxy.log.2" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363074337837" ignored="false" />
     <file path="$USER_HOME$/IdPproxy/idp_proxy.log.5" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363014669683" ignored="false" />
     <file path="$USER_HOME$/IdPproxy/idp_proxy.log.4" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363014669683" ignored="false" />
-    <file path="$USER_HOME$/IdPproxy/.idea/workspace.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363010077087" ignored="false" />
-    <file path="$USER_HOME$/IdPproxy/idp.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022057586" ignored="false" />
-    <file path="$USER_HOME$/IdPproxy/sp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022270627" ignored="false" />
-    <file path="$USER_HOME$/IdPproxy/repoze_who.log" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022356276" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/.idea/workspace.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363073053955" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/idp.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363074209774" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/sp_conf.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022813463" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/repoze_who.log" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363025168800" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/sp.xml" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363022828749" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/src/setup/__init__.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363073598768" ignored="false" />
+    <file path="$USER_HOME$/IdPproxy/src/setup/sp_setup.py" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363073650487" ignored="false" />
+    <file path="/README.txt" changelist="b5772a6d-52f0-499d-a550-8448c87ebbc2" time="1363075017582" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +95,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sp.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sp.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp/sp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="197" selection-end="236" vertical-scroll-proportion="0.2006689">
+            <state line="169" column="13" selection-start="5739" selection-end="5748" vertical-scroll-proportion="-6.3461537">
+              <folding>
+                <element signature="e#22#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGES.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGES.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="51" selection-start="779" selection-end="779" vertical-scroll-proportion="0.6730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sp_conf.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp/sp_conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,46 +160,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/pysaml2-1.0.0dev-py2.7.egg/saml2/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="12" selection-start="4959" selection-end="4959" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="middleware.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/repoze.who-1.0.18-py2.7.egg/repoze/who/middleware.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="4154" selection-end="4154" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="handlers.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/wsgiref/handlers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="204" column="36" selection-start="7489" selection-end="7489" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sp.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp/logs/sp.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="463" column="0" selection-start="135013" selection-end="135013" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sp_conf.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp/sp_conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.4615386">
               <folding />
             </state>
           </provider>
@@ -153,16 +181,7 @@
       <file leaf-file-name="who.ini" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp/who.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="426" selection-end="437" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp/run.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="408" selection-end="437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,9 +206,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/sp/run.sh" />
-        <option value="$PROJECT_DIR$/sp/who.ini" />
         <option value="$PROJECT_DIR$/sp/sp_conf.py" />
+        <option value="$PROJECT_DIR$/sp/logs/sp.log" />
         <option value="$PROJECT_DIR$/sp/sp.py" />
+        <option value="$PROJECT_DIR$/sp/who.ini" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -420,7 +441,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329972" sideWeight="0.6701031" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2554622" sideWeight="0.6707819" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2554622" sideWeight="0.6707819" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -519,32 +540,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sp/logs/sp.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp/sp_conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="7" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
@@ -566,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp/sp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/repoze.who-1.0.18-py2.7.egg/repoze/who/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="0" selection-start="4154" selection-end="4154" vertical-scroll-proportion="0.0">
@@ -587,16 +575,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp/who.ini">
+    <entry file="file:///Library/Python/2.7/site-packages/repoze.who-1.0.18-py2.7.egg/repoze/who/plugins/auth_tkt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="426" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="119" column="0" selection-start="4004" selection-end="4004" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp/logs/sp.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="463" column="0" selection-start="135013" selection-end="135013" vertical-scroll-proportion="0.0">
+        <state line="529" column="0" selection-start="166798" selection-end="166798" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -608,23 +596,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/repoze.who-1.0.18-py2.7.egg/repoze/who/plugins/auth_tkt.py">
+    <entry file="file://$PROJECT_DIR$/sp/sp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="4004" selection-end="4004" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp/who.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="408" selection-end="437" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp/sp_conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.4615386">
+        <state line="7" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp/sp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="197" selection-end="236" vertical-scroll-proportion="0.2006689">
+        <state line="169" column="13" selection-start="5739" selection-end="5748" vertical-scroll-proportion="-6.3461537">
+          <folding>
+            <element signature="e#22#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="51" selection-start="779" selection-end="779" vertical-scroll-proportion="0.6730769">
           <folding />
         </state>
       </provider>
