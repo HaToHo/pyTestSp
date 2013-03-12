@@ -1,15 +1,13 @@
 ===========
-Service Provider (SP) based on pysaml2.
+Service Provider (SP) based on pysaml2 (https://github.com/rohe/pysaml2.git) by Roland Hedberg.
 ===========
 The SP works with a metadata file that contains multiple Identity Providers (IdP).
 
-For documentation how the SP is configured look at pysaml2.
+For documentation how the SP can be configured look at pysaml2.
 
 
-Some help
-------------
-
-What makes the trick.
+The extension from pysaml2
+---------------------------
 
 In the file who.ini add the parameter:
 idp_query_param = IdPEntityId
