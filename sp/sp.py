@@ -195,7 +195,7 @@ def done(environ, start_response, user):
         client.saml_client.users.subjects(),))
 
     start_response('200 OK', [('Content-Type', 'text/html')])
-    return "[<h3>You are now logged out from this service</h3>]"
+    return ["<h3>You are now logged out from this service</h3>"]
 
 # ----------------------------------------------------------------------------
 
